@@ -1,0 +1,100 @@
+.nav_phone {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #252b46ed;
+    padding: 0px 24px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    animation: scale .3s linear ;
+}
+
+@keyframes scale {
+    from {
+        transform: translateY(-100vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+    
+.nav_phone .nav_phone_header {
+       
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+}
+.nav_phone .nav_phone_header .btn_close {
+    background-color: transparent;
+}
+
+.nav_phone .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.nav_phone .nav .nav_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_phone .nav .nav_list .nav_item {
+    width: 100%;
+    padding: 16px 0px ;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--neutral-blue);
+}
+
+.nav .nav_list:first-child {
+    border-top: 1px solid var(--neutral-blue);
+}
+.nav_phone .nav .nav_list .nav_item .nav_link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.nav_item_login {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.nav_item_login .nav_link_login {
+    border: 2px solid white;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0px ;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+@media (width > 800px) {
+    .nav_phone {
+        display: none;
+    }
+}
+

@@ -1,0 +1,62 @@
+:root {
+ --primary-blue: hsl(231, 69%, 60%);
+ --primary-red: hsl(0, 94%, 66%);
+ --neutral-blue: hsl(229, 8%, 60%);
+ --neutral-dark-blue: hsl(229, 31%, 21%);
+ --font-size: 18px;
+ --border-color: #acacac;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.svg-logo g path {
+    fill: #FFF;
+}
+
+
+._main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+
+@media only screen and (min-width: 769px) {
+    ._main {
+        margin-top: 100px;
+        gap: 10rem;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    ._main {
+        margin-top: 130px;
+        gap: 12rem;
+    }
+
+}

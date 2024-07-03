@@ -1,0 +1,59 @@
+
+
+
+.accordion summary {
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+    color: #777a87;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.accordion summary:hover {
+    cursor: pointer;
+    color: var(--primary-red);
+}
+
+.accordion[open] summary {
+    border-bottom: none;
+}
+.accordion[open]  .content{
+    border-bottom: none;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.content {
+    padding: 1rem 0;
+}
+
+.accordion  p{
+    color: var(--neutral-blue);
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+
+.accordion summary::marker {
+    display: hidden;
+}
+
+.svg div  svg {
+    transform: rotate(0deg);
+    transition: all .5s ;
+}
+
+
+
+.accordion[open]  summary  .svg div svg {
+    transform: rotate(180deg);
+    transition: all .5s ;
+}
+
+.accordion[open]  summary  .svg div svg path {
+    stroke: var(--primary-red);
+    transition: all .5s ;
+}
