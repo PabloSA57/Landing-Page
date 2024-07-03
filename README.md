@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/PabloSA57/Landing-Page)
-- Live Site URL: [Add live site URL here](https://bookmark-frontend-mentor-cat.vercel.app/)
+- Solution URL: [GitHub](https://github.com/PabloSA57/Landing-Page)
+- Live Site URL: [BookMark](https://bookmark-frontend-mentor-cat.vercel.app/)
 
 ## My process
 
@@ -56,7 +56,7 @@ Flexbox and grid
 
 ## Author
 
-- Website - [](https://bookmark-frontend-mentor-cat.vercel.app/)
+- Website - [BookMark](https://bookmark-frontend-mentor-cat.vercel.app/)
 - Frontend Mentor - [@PabloSA57](https://www.frontendmentor.io/profile/PabloSA57)
 
 
